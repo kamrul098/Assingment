@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+input,
+button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+input {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+label{
+
+    position: absolute;
+    top:0;
+    left: 0;
+}
+button {
+    border: 1px solid gray;
+    background: whitesmoke;
+    margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+    background: tomato;
+    color: white;
+}
+
+.box-area{
+
+    position: relative;
+    margin-bottom: 1.25em;
+
+}
+
+
+
+
